@@ -33,7 +33,7 @@ body{font-size: 12px;font-family: Arial, Helvetica, sans-serif;background: #F5F5
 
 /*整体布局*/
 html,body{height: 100%;overflow: hidden;}
-#parent{position: absolute;top: 0;left: 0;right: 0;overflow: auto;height: 100%;}
+#parent{position: absolute;top: 0;left: 0;right: 0;overflow: auto;overflow-x: hidden;height: 100%;}
 #g-header{height: 104px;background: url(../img/header.png) repeat-x;}
 #g-banner{height: 336px;}
 #g-content{}
@@ -104,8 +104,9 @@ html,body{height: 100%;overflow: hidden;}
 .m-img .dots .hover{background: #ff0000;}
 
 .m-down{position: absolute;top:0;right: -1px;width: 254px;height: 336px;background: url(../img/download.png) no-repeat;}
-.m-down a{display: block;width: 215px;height: 56px;margin: 212px 0 0 19px;}
+.m-down a{display: block;width: 215px;height: 56px;margin: 212px 0 0 19px;text-indent: -9999px;}
 .m-down a:hover{background: url(../img/download.png) no-repeat 0 -340px;}
+.m-down p{color: #8d8d8d;margin: 10px auto;text-align: center;}
 
 .m-lr a{width: 37px;height: 63px;display: block;position: absolute;top:137px;background: red;background: url(../img/m-lr.png) no-repeat;}
 .m-lr .left{left: -60px;}
