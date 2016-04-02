@@ -11,7 +11,6 @@ table{border-collapse:collapse;}
 input,textarea{outline:none;}
 input{border: none;}
 textarea{resize:none;overflow: auto;}
-/*body{font-size: 12px;font-family: "微软雅黑";background: #F5F5F5;}*/
 body{font-size: 12px;font-family: Arial, Helvetica, sans-serif;background: #F5F5F5;}
 
 
@@ -254,7 +253,7 @@ html,body{height: 100%;overflow: hidden;}
 .m-list li{height: 32px;line-height: 32px;}
 .m-list li span{float: left;width: 35px;height: 32px;margin-left: -35px;text-align: center;color: #666;font-size: 16px;vertical-align: middle;}
 .m-list .r{color: #c10d0c;}
-.m-list li .ti{color: #000;float: left;}
+.m-list li .ti{width: 170px;color: #000;float: left;}
 .m-list li .ti:hover{text-decoration: underline;}
 .m-list .icon{float: right;margin-top: 7px;display: none;}
 .m-list .ic1,.m-list .ic2{float: right;width: 17px;height:17px;margin-right: 10px;background: url(../img/content.png) no-repeat;}

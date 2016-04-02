@@ -223,11 +223,11 @@
     var on=1;
     var num2=0;
     addEvent(oLf,'click',function(){
-        roll(num2,-1);
+        roll(num2,1);
     });
     addEvent(oRt,'click',function(){
 
-        roll(num2,1);
+        roll(num2,-1);
     });
     function roll(index,dir){
         //for(var i=0;i<aUl.length;i++){
@@ -309,12 +309,12 @@
         oScroll.style.top=target+'px';
     }
     //更改页面内容宽度使两面剩余对称
-    function rew(){
-        var nowWidth=document.documentElement.clientWidth || document.body.clientWidth;
-        if(nowWidth>982){
-            oParent.style.width=nowWidth+'px';
-        }
-    }
+    // function rew(){
+    //     var nowWidth=document.documentElement.clientWidth || document.body.clientWidth;
+    //     if(nowWidth>982){
+    //         oParent.style.width=nowWidth+'px';
+    //     }
+    // }
 })();
 /*
 * 播放器面板锁
