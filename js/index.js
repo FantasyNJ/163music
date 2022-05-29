@@ -76,7 +76,7 @@
     var oBanner=document.getElementById('g-banner');
     var oImage=new Image();
     var arrBac=['#100805','#0D1A22','#CFCECA','#171E28','#27010E','#D4D4D2','#11100C','#E9F3F5'];
-    var arrImg=['http://7xs6u5.com1.z0.glb.clouddn.com/banner-1.jpg','http://7xs6u5.com1.z0.glb.clouddn.com/banner-2.jpg','http://7xs6u5.com1.z0.glb.clouddn.com/banner-3.jpg','http://7xs6u5.com1.z0.glb.clouddn.com/banner-4.jpg','http://7xs6u5.com1.z0.glb.clouddn.com/banner-5.jpg','http://7xs6u5.com1.z0.glb.clouddn.com/banner-6.jpg','http://7xs6u5.com1.z0.glb.clouddn.com/banner-7.jpg','http://7xs6u5.com1.z0.glb.clouddn.com/banner-8.jpg'];
+    var arrImg=['img/banner/banner-1.jpg','img/banner/banner-2.jpg','img/banner/banner-3.jpg','img/banner/banner-4.jpg','img/banner/banner-5.jpg','img/banner/banner-6.jpg','img/banner/banner-7.jpg','img/banner/banner-8.jpg'];
     var oImg=document.getElementById('img');
     var oWrap=getElementsByClassName(oBanner,'wrap')[0];
     var aI=oWrap.getElementsByTagName('i');
